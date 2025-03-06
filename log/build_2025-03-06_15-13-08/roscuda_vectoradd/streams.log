@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/debian/ros-cuda/build/roscuda_vectoradd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/debian/ros-cuda/build/roscuda_vectoradd
+[0.049s] [33mCMake Warning (dev) at CMakeLists.txt:5 (find_package):
+[0.050s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[0.050s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[0.050s]   set the policy and suppress this warning.
+[0.050s] 
+[0.050s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.050s] [0m
+[0.056s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.300s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.336s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.345s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.357s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.439s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.441s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.533s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.611s] -- Configuring incomplete, errors occurred!
+[0.611s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.611s]   ament_target_dependencies() the passed package name 'vectoradd_cuda' was
+[0.611s]   not found before
+[0.611s] Call Stack (most recent call first):
+[0.611s]   CMakeLists.txt:21 (ament_target_dependencies)
+[0.612s] 
+[0.612s] [0m
+[0.618s] gmake: *** [Makefile:281: cmake_check_build_system] Error 1
+[0.622s] Invoked command in '/home/debian/ros-cuda/build/roscuda_vectoradd' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/debian/ros-cuda/build/roscuda_vectoradd

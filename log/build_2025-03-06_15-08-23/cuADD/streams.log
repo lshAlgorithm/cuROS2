@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/debian/ros-cuda/build/cuADD': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/debian/ros-cuda/cuADD -DCMAKE_INSTALL_PREFIX=/home/debian/ros-cuda/install/cuADD
+[0.032s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.169s] -- Found Python3: /home/debian/miniconda3/bin/python3 (found version "3.12.8") found components: Interpreter 
+[0.258s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):
+[0.258s]   add_custom_target called with invalid target name "cuADD/_uninstall".
+[0.259s]   Target names may not contain a slash.  Use ADD_CUSTOM_COMMAND to generate
+[0.259s]   files.
+[0.259s] Call Stack (most recent call first):
+[0.259s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.259s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.259s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.259s]   CMakeLists.txt:9 (find_package)
+[0.259s] 
+[0.259s] [0m
+[0.285s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.338s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.351s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.466s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.469s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.563s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.591s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.709s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.788s] Error parsing '/home/debian/ros-cuda/cuADD/package.xml':
+[0.788s] Traceback (most recent call last):
+[0.789s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.789s]     main()
+[0.789s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.789s]     raise e
+[0.789s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.789s]     package = parse_package_string(
+[0.789s]               ^^^^^^^^^^^^^^^^^^^^^
+[0.790s]   File "/home/debian/miniconda3/lib/python3.12/site-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.790s]     pkg.validate(warnings=warnings)
+[0.790s]   File "/home/debian/miniconda3/lib/python3.12/site-packages/catkin_pkg/package.py", line 330, in validate
+[0.790s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.790s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/debian/ros-cuda/cuADD/package.xml':
+[0.790s] Package name "cuADD/" does not follow naming conventions
+[0.801s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.801s]   execute_process(/home/debian/miniconda3/bin/python3
+[0.801s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.801s]   /home/debian/ros-cuda/cuADD/package.xml
+[0.802s]   /home/debian/ros-cuda/build/cuADD/ament_cmake_core/package.cmake) returned
+[0.802s]   error code 1
+[0.802s] Call Stack (most recent call first):
+[0.802s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.802s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.802s]   CMakeLists.txt:21 (ament_lint_auto_find_test_dependencies)
+[0.802s] 
+[0.803s] [0m
+[0.803s] -- Configuring incomplete, errors occurred!
+[0.813s] Invoked command in '/home/debian/ros-cuda/build/cuADD' returned '1': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/debian/ros-cuda/cuADD -DCMAKE_INSTALL_PREFIX=/home/debian/ros-cuda/install/cuADD

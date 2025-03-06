@@ -1,0 +1,14 @@
+[33mCMake Warning (dev) at CMakeLists.txt:5 (find_package):
+  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+  --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/debian/ros-cuda/roscuda_vectoradd/src/vectoradd_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/vectoradd_node.dir/build.make:76: CMakeFiles/vectoradd_node.dir/src/vectoradd_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/vectoradd_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

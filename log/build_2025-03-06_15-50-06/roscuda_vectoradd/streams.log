@@ -1,0 +1,47 @@
+[0.016s] Invoking command in '/home/debian/ros-cuda/build/roscuda_vectoradd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/debian/ros-cuda/build/roscuda_vectoradd
+[0.053s] [33mCMake Warning (dev) at CMakeLists.txt:5 (find_package):
+[0.053s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[0.053s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[0.053s]   set the policy and suppress this warning.
+[0.053s] 
+[0.053s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.053s] [0m
+[0.061s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.307s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.340s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.350s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.446s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.448s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.723s] -- Configuring done (0.7s)
+[0.736s] -- Generating done (0.0s)
+[0.740s] -- Build files have been written to: /home/debian/ros-cuda/build/roscuda_vectoradd
+[0.792s] [ 25%] [32m[1mLinking CXX shared library libvectoradd_cuda.so[0m
+[0.890s] [ 50%] Built target vectoradd_cuda
+[0.931s] [ 75%] [32m[1mLinking CXX executable vectoradd_node[0m
+[1.071s] [100%] Built target vectoradd_node
+[1.089s] Invoked command in '/home/debian/ros-cuda/build/roscuda_vectoradd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/debian/ros-cuda/build/roscuda_vectoradd
+[1.106s] Invoking command in '/home/debian/ros-cuda/build/roscuda_vectoradd': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/debian/ros-cuda/build/roscuda_vectoradd
+[1.116s] -- Install configuration: ""
+[1.116s] -- Installing: /home/debian/ros-cuda/install/roscuda_vectoradd/lib/roscuda_vectoradd/vectoradd_node
+[1.116s] -- Set non-toolchain portion of runtime path of "/home/debian/ros-cuda/install/roscuda_vectoradd/lib/roscuda_vectoradd/vectoradd_node" to "$ORIGIN"
+[1.117s] -- Installing: /home/debian/ros-cuda/install/roscuda_vectoradd/lib/roscuda_vectoradd/libvectoradd_cuda.so
+[1.117s] -- Set non-toolchain portion of runtime path of "/home/debian/ros-cuda/install/roscuda_vectoradd/lib/roscuda_vectoradd/libvectoradd_cuda.so" to "$ORIGIN"
+[1.117s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/ament_index/resource_index/package_run_dependencies/roscuda_vectoradd
+[1.118s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/ament_index/resource_index/parent_prefix_path/roscuda_vectoradd
+[1.118s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/environment/ament_prefix_path.sh
+[1.118s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/environment/ament_prefix_path.dsv
+[1.118s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/environment/path.sh
+[1.118s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/environment/path.dsv
+[1.118s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/local_setup.bash
+[1.119s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/local_setup.sh
+[1.119s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/local_setup.zsh
+[1.119s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/local_setup.dsv
+[1.119s] -- Installing: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/package.dsv
+[1.119s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/ament_index/resource_index/packages/roscuda_vectoradd
+[1.119s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/cmake/roscuda_vectoraddConfig.cmake
+[1.119s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/cmake/roscuda_vectoraddConfig-version.cmake
+[1.119s] -- Up-to-date: /home/debian/ros-cuda/install/roscuda_vectoradd/share/roscuda_vectoradd/package.xml
+[1.121s] Invoked command in '/home/debian/ros-cuda/build/roscuda_vectoradd' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/debian/ros-cuda/build/roscuda_vectoradd
