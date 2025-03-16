@@ -3,7 +3,7 @@
   <name>roscuda_vectoradd</name>
   <version>0.0.0</version>
   <description>Example ROS 2 package with CUDA</description>
-  <maintainer email="user@todo.todo">user</maintainer>
+  <maintainer email="lishuhuaiofficial@gmail.com">user</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

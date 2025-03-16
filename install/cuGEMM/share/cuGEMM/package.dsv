@@ -1,0 +1,8 @@
+source;share/cuGEMM/hook/cmake_prefix_path.ps1
+source;share/cuGEMM/hook/cmake_prefix_path.dsv
+source;share/cuGEMM/hook/cmake_prefix_path.sh
+source;share/cuGEMM/local_setup.bash
+source;share/cuGEMM/local_setup.dsv
+source;share/cuGEMM/local_setup.ps1
+source;share/cuGEMM/local_setup.sh
+source;share/cuGEMM/local_setup.zsh

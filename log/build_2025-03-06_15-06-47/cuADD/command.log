@@ -1,2 +1,0 @@
-Invoking command in '/home/debian/ros-cuda/build/cuADD': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/debian/ros-cuda/cuADD -DCMAKE_INSTALL_PREFIX=/home/debian/ros-cuda/install/cuADD
-Invoked command in '/home/debian/ros-cuda/build/cuADD' returned '1': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/debian/ros-cuda/cuADD -DCMAKE_INSTALL_PREFIX=/home/debian/ros-cuda/install/cuADD
